@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out both;
+}
+
+.slide-up {
+  animation: slideUp 0.7s ease-out both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Service cards: entry animation + smooth selection (duration via component) */
+@media (prefers-reduced-motion: reduce) {
+  .fade-in,
+  .slide-up {
+    animation: none;
+  }
+}
