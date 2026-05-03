@@ -1,10 +1,10 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import HowItWorks from "../components/HowItWorks";
-import TestimonialCarousel from "../components/TestimonialCarousel";
-import BookingSection from "../components/BookingSection";
-import Footer from "../components/Footer";
-import FixedFooterBanner from "../components/FixedFooterBanner";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import HowItWorks from "./components/HowItWorks";
+import TestimonialCarousel from "./components/TestimonialCarousel";
+import BookingSection from "./components/BookingSection";
+import Footer from "./components/Footer";
+import FixedFooterBanner from "./components/FixedFooterBanner";
 
 function App() {
   return (
