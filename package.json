@@ -29,4 +29,3 @@ cat > package.json << 'EOF'
     "vite": "^8.0.10"
   }
 }
-EOF
