@@ -2,7 +2,10 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
 import TestimonialCarousel from "../components/TestimonialCarousel";
+<<<<<<< HEAD
 import PricingSection from "../components/PricingSection";
+=======
+>>>>>>> 7ddb26ff974b95ca8b28fcbcd30434f75ccda6e4
 import BookingSection from "../components/BookingSection";
 import Footer from "../components/Footer";
 import FixedFooterBanner from "../components/FixedFooterBanner";
@@ -16,7 +19,10 @@ function App() {
           <Hero />
         </section>
         <HowItWorks />
+<<<<<<< HEAD
         <PricingSection />
+=======
+>>>>>>> 7ddb26ff974b95ca8b28fcbcd30434f75ccda6e4
         <TestimonialCarousel />
         <BookingSection />
       </main>
